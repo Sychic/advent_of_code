@@ -14,7 +14,7 @@ pub mod part1 {
     
     pub(super) fn read_file() -> String {
         fs::read_to_string("day1.txt")
-        .expect("uh oh, something broke!")
+            .expect("uh oh, something broke!")
     }
     
     pub(super) fn parse_int(string: &str) -> i32 {
